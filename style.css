@@ -8,7 +8,7 @@ body{
 .orangered-color{
     color:orangered;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -36,4 +36,29 @@ width: 85%;
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+.majors{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#major1-border{
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon,red);
+    border-image-slice: 1;
+}
+#major2-border{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
